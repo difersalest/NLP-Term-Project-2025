@@ -1,4 +1,10 @@
-Didier_Tests4/gemma-text-to-sql/*
+# Folders
+Didier_Tests*/gemma-text-to-sql/*
+Didier_Tests*/merged_model/*
+Didier_Tests*/my_awesome_model/*
+Didier_Tests*/my_classification_gemma_model/*
+Didier_Tests*/tensorboard_my_model/*
+# Didier_Tests4/gemma-text-to-sql/*
 *.csv
 # Byte-compiled / optimized / DLL files
 __pycache__/
