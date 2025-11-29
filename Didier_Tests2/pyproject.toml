@@ -1,0 +1,17 @@
+[project]
+name = "didier-tests2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11, <3.12"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "matplotlib>=3.10.7",
+    "numpy<2.0",
+    "pandas>=2.3.3",
+    "plotly>=6.5.0",
+    "tqdm>=4.67.1",
+    "uv>=0.9.13",
+]
+
+
