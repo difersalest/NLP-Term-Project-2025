@@ -12,6 +12,7 @@ dependencies = [
     "evaluate==0.4.3",
     "flash-attn",
     "ipykernel>=7.1.0",
+    "kagglehub>=0.3.13",
     "peft==0.14.0",
     "protobuf>=6.33.1",
     "scikit-learn>=1.7.2",

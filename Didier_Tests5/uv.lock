@@ -263,6 +263,7 @@ dependencies = [
     { name = "evaluate" },
     { name = "flash-attn" },
     { name = "ipykernel" },
+    { name = "kagglehub" },
     { name = "peft" },
     { name = "protobuf" },
     { name = "scikit-learn" },
@@ -282,6 +283,7 @@ requires-dist = [
     { name = "evaluate", specifier = "==0.4.3" },
     { name = "flash-attn", path = "flash_attn-2.8.1+cu128torch2.9-cp311-cp311-linux_x86_64.whl" },
     { name = "ipykernel", specifier = ">=7.1.0" },
+    { name = "kagglehub", specifier = ">=0.3.13" },
     { name = "peft", specifier = "==0.14.0" },
     { name = "protobuf", specifier = ">=6.33.1" },
     { name = "scikit-learn", specifier = ">=1.7.2" },
@@ -600,6 +602,21 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/02/49/9d1284d0dc65e2c757b74c6687b6d319b02f822ad039e5c512df9194d9dd/jupyter_core-5.9.1.tar.gz", hash = "sha256:4d09aaff303b9566c3ce657f580bd089ff5c91f5f89cf7d8846c3cdf465b5508", size = 89814, upload-time = "2025-10-16T19:19:18.444Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/e7/e7/80988e32bf6f73919a113473a604f5a8f09094de312b9d52b79c2df7612b/jupyter_core-5.9.1-py3-none-any.whl", hash = "sha256:ebf87fdc6073d142e114c72c9e29a9d7ca03fad818c5d300ce2adc1fb0743407", size = 29032, upload-time = "2025-10-16T19:19:16.783Z" },
+]
+
+[[package]]
+name = "kagglehub"
+version = "0.3.13"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "packaging" },
+    { name = "pyyaml" },
+    { name = "requests" },
+    { name = "tqdm" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/1c/12/e13c1c8b203535b15dacc420c0f1596dda67463175ff1e4404af21815bdd/kagglehub-0.3.13.tar.gz", hash = "sha256:d3c8b6250627d665096cd91a9487559bf5ed61be607eaf63d14511b20eea646e", size = 113694, upload-time = "2025-08-26T16:17:33.486Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a4/8e/4077b08b95a1f8302c694a8b399bd413815fbe89045c41e6e08cd7d9439a/kagglehub-0.3.13-py3-none-any.whl", hash = "sha256:e00dec8b81396cbad9c7b5eb62a33cf8ae27da26227abd196ed8f054c845ca00", size = 68257, upload-time = "2025-08-26T16:17:32.13Z" },
 ]
 
 [[package]]
