@@ -4,8 +4,11 @@ Didier_Tests*/merged_model/*
 Didier_Tests*/my_awesome_model/*
 Didier_Tests*/my_classification_gemma_model/*
 Didier_Tests*/tensorboard_my_model/*
+Didier_Tests*/preference_class_gemma_*/*
+
 # Didier_Tests4/gemma-text-to-sql/*
 *.csv
+*.whl
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

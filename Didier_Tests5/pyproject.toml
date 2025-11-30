@@ -1,15 +1,16 @@
 [project]
-name = "didier-tests4"
+name = "didier-tests5"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = "==3.11.*"
 dependencies = [
     "accelerate==1.4.0",
     "bitsandbytes==0.45.3",
     "datasets==3.3.2",
     "dotenv>=0.9.9",
     "evaluate==0.4.3",
+    "flash-attn",
     "ipykernel>=7.1.0",
     "peft==0.14.0",
     "protobuf>=6.33.1",
@@ -23,14 +24,14 @@ dependencies = [
 
 [tool.uv]
 required-environments = [
-    "sys_platform == 'linux' and platform_machine == 'x86_64'",
-    "sys_platform == 'win32' and platform_machine == 'AMD64'"
+    "sys_platform == 'linux' and platform_machine == 'x86_64'"
 ]
 
 [tool.uv.sources]
 torch = [
     { index = "pytorch-cu128" },
 ]
+flash-attn = { path = "flash_attn-2.8.1+cu128torch2.9-cp311-cp311-linux_x86_64.whl" }
 
 [[tool.uv.index]]
 name = "pytorch-cu128"
