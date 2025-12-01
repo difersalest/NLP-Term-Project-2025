@@ -8,10 +8,10 @@ load_dotenv(dotenv_path=env_path)
 # Configuration
 # Path to the local folder containing adapter_model.bin/safetensors and adapter_config.json
 # LOCAL_MODEL_PATH = "preference_class_gemma_2"
-LOCAL_MODEL_PATH = "preference_class_gemma_4"
+LOCAL_MODEL_PATH = "preference_class_gemma_5"
 
 # Kaggle Handle: <your-username>/<model-slug>/<framework>/<variation-slug>
-MODEL_HANDLE = "didiersalazar/gemma-3-preference-adapter/transformers/v3"
+MODEL_HANDLE = "didiersalazar/gemma-3-preference-adapter/transformers/v4"
 
 print(f"Logging in to Kaggle...")
 
@@ -27,7 +27,7 @@ try:
         handle=MODEL_HANDLE,
         local_model_dir=LOCAL_MODEL_PATH,
         license_name="Apache 2.0",  # Standard license
-        version_notes="Third Fine-tuned LoRA adapter for LMSYS competition using Gemma 3 (1 Epoch, trained with swapped augmented data, 97.5/2.5 train/val)"
+        version_notes="Fourth Fine-tuned LoRA adapter for LMSYS competition using Gemma 3 4B IT (1 Epoch, trained with swapped augmented data, 97.5/2.5 train/val)"
     )
     print("\n-> Upload successful!")
 except Exception as e:
